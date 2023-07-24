@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,600&family=Poppins&family=Roboto+Condensed:wght@300&display=swap');
+
+
+.container{
+    min-width: 20%;
+    margin-left: 50px;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+}
+
+.head{
+    color: #2c4152;
+    font-weight: 900;
+}
+
+.container h5{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.filter{
+    color: #2c4152;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.filter i{
+    font-size: 18px;
+}
+
+.category{
+    display: flex;
+    gap: 10px;
+    width: 200px;
+}

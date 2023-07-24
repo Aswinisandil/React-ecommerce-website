@@ -1,0 +1,104 @@
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.carousel1{
+    position: relative;
+    top: 10px;
+   
+}
+
+/* .contain{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+@keyframes push {
+    0% { transform: translateZ(0px); }
+    50% { transform: translateZ(30px);}
+}
+
+.active :hover{
+    opacity: 1;
+    animation-name: push;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 300ms;
+}
+
+
+.carousel-item, .banner1, .mainbanner1, .mainbanner2, .movingimg, .mainbanner3, .set, .mainbanner4, .mainbanner5,
+.lastBanner,.lastbigimage,.lbannerlast1,.imagesSlab{
+    perspective: 1000px;
+}
+
+.carousel-indicators{
+    top: 470px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.carousel-indicators #btn{
+    width: 50px;
+    height: 5px;
+    background-color: gray;
+}
+
+.banner-1{
+    position: relative;
+    margin-top: 25px;
+}
+
+.bannerimg:hover{
+    opacity: 2;
+    animation-name: push;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 300ms;
+}
+
+.mainbanner2,.mainbanner5{
+    margin-top: 50px;
+}
+
+.set-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.imageSlab-1,.imageSlab-2,.imageSlab-3,.imageSlab-4, .imageSlab-5,.lastBanner, .lastbigimage,.lastBanner,.lbannerlast1,.imagesSlab{
+    width: 100vw;
+    display: flex;
+}
+
+
+.slick-next{
+    right: 20px;
+    position: absolute;
+    font-size: 34px;
+    margin-right: 50px;
+   
+}
+
+.slick-prev{
+    position: absolute;
+    margin-left: 50px;
+    z-index: 1;
+    font-size: 34px;
+    left: 20px;
+
+}
+
+.bannerimg{
+    width: 100vw;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+*{
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.card{
+    width: 400px;
+    height: 80vh;
+    margin: auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 26px;   
+}
+
+.name{
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 15px 0px;
+}
+
+.signin{
+    font-size: 14px;
+    margin: 15px 5px 15px 5px;
+}
+.check{
+    margin-right: 10px;
+}
+
+.login{
+    border: none;
+    background-color: #d5a249;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 8px 40px;
+    margin-bottom: 30px;
+}

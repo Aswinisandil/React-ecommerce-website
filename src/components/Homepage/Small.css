@@ -1,0 +1,29 @@
+.smallimg{
+    width: 350px;
+    height: 410px;
+}
+
+.small{
+    width: 100vw !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallimg{
+    perspective: 1000px;
+}
+@keyframes push {
+    0% { transform: translateZ(0px); }
+    50% { transform: translateZ(30px);}
+}
+
+.smallimg:hover{
+    opacity: 2;
+    animation-name: push;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 300ms;
+}
+
+

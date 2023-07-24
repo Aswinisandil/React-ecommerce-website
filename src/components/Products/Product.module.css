@@ -1,0 +1,28 @@
+.root{
+    padding: 2px;
+}
+.title{
+    color: #d5a249;
+    /* font-size: 15px; */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.title,.price,.descript{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+.descript{
+    color: black;
+}
+
+.price{
+    color: black;
+    font-weight: 800;
+}
+
+

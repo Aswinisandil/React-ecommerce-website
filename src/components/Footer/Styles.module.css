@@ -1,0 +1,286 @@
+.ftrbanner{
+    background-color: #2c4152 ;
+}
+
+.ftrlist{
+    background-color: #dcd9d9;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: 'Lora', serif;
+    margin: 10px auto 0 auto;
+}
+
+.ftrlist i{
+    font-size: 3em;
+
+}
+.ftrlist p{
+    margin-top: 10px;
+}
+
+.lis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ftrcont{
+    margin: 0;
+    position: relative;
+}
+
+
+
+.ftrbodyinner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+    align-items: left !important;
+    border-bottom: 1px solid #CCCCCC !important;
+    padding: 0 0 40px 0;
+    vertical-align: baseline;
+}
+.ftrsupport{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #CCCCCC;
+    font-family: "SourceSansPro";
+    /* margin: 0 150px 0 70px; */
+   
+}
+
+.ftrsupport:not(:first-child){
+    margin-left: 60px;
+}
+
+
+.headline{
+    font-family: 'Lora';
+    font-size: 15px;
+    margin: 0 0 20px;
+}
+.ftritems{
+    font-size: 12px;
+    color: #CCCCCC;
+    font-family: 'SourceSansPro';
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.ftritems a{
+    text-decoration: none;
+    color: #CCCCCC;
+    margin: 0 0 8px;
+
+}
+.ftrcont{
+    padding: 40px 0px 0 0;
+    background-color: #2c4152;
+
+}
+.footup{
+    background-color: #2c4152;
+
+}
+
+.ftrbtm{
+    background-color: #2c4152;
+    color: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+    justify-content: space-around;
+    gap: 12em;
+    padding: 40px 0;
+
+
+}
+.ftrpayment{
+    display:inline;
+    vertical-align: baseline;
+    font-size: 0.5em;
+    color: #CCCCCC;
+    
+}
+
+.ftrpayment .headline{
+    margin-left: 2em;
+}
+
+.methods ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.methods{
+    /* margin-left: -4em; */
+    margin-top: -1em;
+    
+}
+.net{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+}
+
+.net .bb{
+    width: 60px;
+    padding: 5px;
+    height: 20px;
+    color: #2c4152;
+    background-color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 10px;
+    margin-left: 6px;
+
+}
+
+.vw{
+    color: white;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    line-height: 90%;
+    height: 40px;
+
+}
+
+.vw .vw-p1{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+}
+
+.vw2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.master{
+    margin-left: 15px;
+}
+
+.master i{
+    font-size: 5em;
+}
+.cod{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-left: 20px;
+
+}
+
+.cod i{
+    font-size: 5em;
+    align-items: center;
+}
+
+.cod p{
+    width: 5em;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: sans-serif;
+    letter-spacing: -0.5px;
+    font-weight: 200;
+    margin: 0;
+
+}
+
+.ftrsecure{
+    color: white;
+    font-size: 10px;
+}
+
+.jio{
+    width: 8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+.jiologo{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    margin-right: 4px;
+}
+
+.ftrsecure{
+    width: 13em;
+}
+
+.ftrsecure .headline{
+    font-family: 'Lora';
+    font-size: 15px;
+    margin: 0 0 20px;
+    color: #CCCCCC;
+}
+
+.methodlist{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-top: -5px;
+
+}
+.methodlist i{
+    font-size: 30px;
+    margin-left: -20px;
+
+}
+
+.secure2{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 8px 0 3px 0;
+}
+
+.secure2 p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.secure2 div{
+    font-size: 9px;
+    font-weight: 200;
+    margin-top: -17px;
+}

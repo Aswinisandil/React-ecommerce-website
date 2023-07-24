@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,600&family=Poppins&family=Roboto+Condensed:wght@300&family=Source+Sans+3:wght@300;400;500&display=swap');
+.image{
+    width: 134px;
+    height: 168px;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.title{
+    width: 35%;
+}
+
+.actions{
+    display: flex;
+    margin-bottom: auto;
+}
+
+.priceslab{
+    display: flex;
+    flex-direction: column;
+}
+.savings{
+    margin-top: 13px;
+    color: grey;
+    font-weight: 600;
+
+}
+
+.discount,.finalprice{
+    margin-top: -3px;
+}
+
+.price{
+    display: flex;
+    text-decoration:line-through;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.discount{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Source Sans 3', sans-serif;
+
+
+}
+
+.finalprice{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border-left: 5px solid navy;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.delete,.wishlist{
+    border: none;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    color:#2c4152;
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+}

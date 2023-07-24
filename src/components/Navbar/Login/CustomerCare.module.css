@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.container h2, .email{
+    margin-bottom: 20px;
+}
+.email{
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 1px solid #2c4152;
+
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    width: 60%;
+    border-radius: 3px;
+}
+
+.button{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    background-color: #d5a249;
+    color: #fff;
+
+}
